@@ -42,6 +42,11 @@ header {
     background-position: center;
 }
 
+.star-title {
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+}
+
 h1 {
     font-size: 70px;
     padding-bottom: 40px;
@@ -50,8 +55,6 @@ h1 {
 .col-100 {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 500px;
     justify-content: center;
     align-items: center;
 }
@@ -90,32 +93,18 @@ h1 {
 
 .col-16 {
     width: calc(100%/6);
-    border: 1px dashed #fff;
-    background-color: #20B2AA;
-    height: 500px;
 }
 
 .col-33 {
     width: calc(100%/6*2);
-    border: 1px dashed black;
-    background-color: #F08080;
-    height: 500px;
 }
 
 /*column width 100% but double height */
-.h-500 {
-    height: 500px;
-}
-
 
 footer {
     background-color: #23272A;
 }
 
-
-hr {
-    color: #fff;
-}
 
 #bottone-sinistro {
     border: dashed 1px black;
@@ -154,12 +143,17 @@ ul.text-center li a {
     margin: 0 15px;
 }
 
+ul.footer-list li {
+    display: block;
+    padding: 10px 0;
+}
+
 .py-10 {
     padding: 10px 0;
 }
 
-.py-20 {
-    padding: 20px 0;
+.py-50 {
+    padding: 50px 0;
 }
 
 .justify-between {
@@ -167,18 +161,9 @@ ul.text-center li a {
 }
 
 /* Footer  */
-.top-footer {
-    border-bottom: 1px solid gray;
-    padding: 5px 0 15px 0;
-}
 
 .bottom-footer {
     padding-top: 10px;
-}
-
-.box-bottom-footer {
-    background-color: #FFB6C0;
-    border: dashed 1px black;
 }
 
 .btn {
@@ -206,8 +191,18 @@ ul.text-center li a {
     color: white;
 }
 
+.btn-lightblue {
+    background-color: #7189DA;
+    color: white;
+    margin: 50px 0;
+}
+
 .font-white {
     color: #fff;
+}
+
+.blue-text {
+    color: #7189DA;
 }
 
 .medium-font {
@@ -215,7 +210,28 @@ ul.text-center li a {
 }
 
 .titles {
-    font-size: 50px;
+    font-size: 40px;
     padding-bottom: 25px;
     text-align: left;
+}
+
+.stars {
+    width: 40%;
+    margin-bottom: -15px;
+}
+
+.flag-icon {
+    width: 20px;
+    padding-right: 5px;
+}
+
+#select-language {
+    background-color: #23272A;
+    color: #fff;
+    border: none;
+}
+
+hr {
+    width: 1200px;
+    margin: 0 auto;
 }
