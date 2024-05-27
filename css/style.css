@@ -45,7 +45,7 @@ header {
 }
 
 .col-100 {
-    width: 80%;
+    width: 100%;
     height: 300px;
     background-color: #EE81EE;
     border: dashed 1px black;
@@ -64,6 +64,15 @@ header {
     background-color: #23272A;
 }
 
+.bg-darkgreen {
+    background-color: #238B21;
+}
+
+.bg-lightacqua {
+    background-color: #7FFFD4;
+    padding: 10px 0;
+}
+
 /* column size and color */
 .col-65 {
     width: 65%;
@@ -79,45 +88,33 @@ header {
     border: dashed 1px black;
 }
 
-/*column width 100% but double height */
-.tall-column {
-    width: 100%;
-    height: 600px;
-    border: dashed 1px black;
-    background-color: #238B21;
-}
-
-/* columns value 1 and 2 */
-.col-value1 {
-    width: 40%;
-    height: 400px;
-    background-color: #F08080;
-    border: dashed 1px black;
-    margin-top: -10px;
-}
-
-.col-value2 {
-    width: 15%;
-    height: 400px;
+.col-16 {
+    width: calc(100%/6);
+    border: 1px dashed #fff;
     background-color: #20B2AA;
-    border: dashed 1px white;
-    margin-top: -10px;
+    height: 500px;
+}
+
+.col-33 {
+    width: calc(100%/6*2);
+    border: 1px dashed black;
+    background-color: #F08080;
+    height: 500px;
+}
+
+/*column width 100% but double height */
+.h-500 {
+    height: 500px;
 }
 
 
-/* start footer */
+footer {
+    background-color: #23272A;
+}
 
 
 hr {
     color: #fff;
-}
-
-.button {
-    width: 100%;
-    height: 40px;
-    background-color: #7FFFD4;
-    align-content: center;
-    justify-content: space-between;
 }
 
 #bottone-sinistro {
@@ -149,4 +146,23 @@ hr {
 
 .py-20 {
     padding: 20px 0;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+/* Footer  */
+.top-footer {
+    border-bottom: 1px solid gray;
+    padding: 5px 0 15px 0;
+}
+
+.bottom-footer {
+    padding-top: 10px;
+}
+
+.box-bottom-footer {
+    background-color: #FFB6C0;
+    border: dashed 1px black;
 }
