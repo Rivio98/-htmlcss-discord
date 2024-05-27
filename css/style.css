@@ -10,36 +10,34 @@ body {
 
 header {
     background-color: #ADD8E6;
-    height: 85px;
+    padding: 15px 0;
 }
 
-/* Classi  principali struttura */
+/* Layout classes */
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0px auto;
 }
 
 .row {
-    padding: 30px 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Stile colonne header */
-.left {
-    width: 25%;
+.col-20 {
+    width: 20%;
+    background-color: #DAA521;
+    border: dashed 1px black;
 }
 
-.center {
-    width: 50%;
-    text-align: center;
+.col-60 {
+    width: 60%;
+    background-color: #DAA521;
+    border: dashed 1px black;
 }
 
-.right {
-    width: 25%;
-    text-align: right;
-}
+
 
 .column {
     background-color: #DAA521;
@@ -135,4 +133,19 @@ hr {
 
 #bottone-destro {
     border: dashed 1px black;
+}
+
+
+/* Utilities */
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
 }
