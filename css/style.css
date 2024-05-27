@@ -38,20 +38,13 @@ header {
 }
 
 
-
-.column {
-    background-color: #DAA521;
-    padding: 5px;
-    border: dashed 1px black;
-}
-
 /* Main */
 /* first row */
 .bg-darkblue {
     background-color: #00008B;
 }
 
-.column-100 {
+.col-100 {
     width: 80%;
     height: 300px;
     background-color: #EE81EE;
@@ -72,14 +65,14 @@ header {
 }
 
 /* column size and color */
-.column-65 {
+.col-65 {
     width: 65%;
     height: 300px;
     background-color: #1D90FF;
     border: dashed 1px black;
 }
 
-.column-35 {
+.col-35 {
     width: 35%;
     height: 300px;
     background-color: #FFBFCB;
@@ -95,7 +88,7 @@ header {
 }
 
 /* columns value 1 and 2 */
-.column-value1 {
+.col-value1 {
     width: 40%;
     height: 400px;
     background-color: #F08080;
@@ -103,7 +96,7 @@ header {
     margin-top: -10px;
 }
 
-.column-value2 {
+.col-value2 {
     width: 15%;
     height: 400px;
     background-color: #20B2AA;
@@ -148,4 +141,12 @@ hr {
 
 .text-center {
     text-align: center;
+}
+
+.py-10 {
+    padding: 10px 0;
+}
+
+.py-20 {
+    padding: 20px 0;
 }
