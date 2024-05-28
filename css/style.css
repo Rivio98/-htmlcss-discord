@@ -65,7 +65,7 @@ h1 {
 }
 
 .bg-grey {
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 
 .bg-black {
@@ -234,4 +234,13 @@ ul.footer-list li {
 hr {
     width: 1200px;
     margin: 0 auto;
+}
+
+.icons {
+    font-size: 20px;
+    color: #fff;
+}
+
+i {
+    padding: 10px;
 }
